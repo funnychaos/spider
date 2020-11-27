@@ -1,0 +1,176 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<link rel="icon" type="image/ico" href="/favicon.ico">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name='robots' content='index,follow' />
+<meta name='robots' content='all' />
+<link href="http://proxy.my-addr.com/myaddrproxy_img/style.css?r=14" type="text/css" rel="stylesheet" />
+<meta name="verify-v1" content="SEFo/DOATAYf0UN0xLQS0//oLcLKJ75vvQ9JY0/7dko=" />
+<META name="y_key" content="28212c970516c494">
+<meta name="google-site-verification" content="LAByUmmkhiW2wCSJ_NRDjDt6gHeAQfpQTvHzjotF968" />
+<title>Online web proxy,free anonymous web surfing,anonymizer,proxy</title>
+<script>
+var ie = (document.all) ? true : false;
+
+function init_ajax()
+{
+        if (ie){
+                try {objHttp = new ActiveXObject("Microsoft.XMLHTTP"); } catch(e) {return false; }
+    }else{
+        try     {objHttp = new XMLHttpRequest(); } catch(e) {return false;}
+    }
+    return objHttp;
+}
+
+function ajax_request(objHttp,query,post_data)
+{
+        objHttp.open("POST", query, true);
+        objHttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
+        objHttp.send(post_data);
+}
+
+function update_useragent(abbr){
+	switch(abbr){
+		case 'cur'   : document.getElementById('useragent').value = "Python-urllib/3.9"; break;
+		case 'real'  : document.getElementById('useragent').value = "Python-urllib/3.9"; break;
+		case 'empty' : document.getElementById('useragent').value = ''; break;
+		case 'ie8'   : document.getElementById('useragent').value = "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)"; break;
+		case 'ie9'   : document.getElementById('useragent').value = "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)"; break;
+		case 'ff48'  : document.getElementById('useragent').value = "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:48.0) Gecko/20100101 Firefox/48.0"; break;
+		case 'chrome': document.getElementById('useragent').value = "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36"; break;
+		case 'opera' : document.getElementById('useragent').value = "Opera/9.80 (Windows NT 6.2; Win64; x64) Presto/2.12.388 Version/12.17"; break;
+		case 'safari': document.getElementById('useragent').value = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7"; break;
+		case 'gbot'  : document.getElementById('useragent').value = "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"; break;
+		default:break;
+	}
+}
+
+function save_settings(property)
+{
+        if (document.getElementById(property).checked == true) value=1;
+        else value = 0;
+        objHttp = init_ajax();
+        ajax_request(objHttp,'/myaddrproxy.php?us=1&p='+property+'&v='+value);
+}
+</script>
+</head>
+<body bgcolor="white" style="background-image: url(http://proxy.my-addr.com/myaddrproxy_img/whitebox_bg.png); padding:0px 0px 0px 0px; margin:0px 0px 0px 0px; ">
+<center>
+<table>
+<tr><td style='color:#000000; padding:4px 4px 4px 4px;' class='blue_bg_header skybg skyborders'>
+<center><div class='header creambg' style='padding-top:2px;'><img src='http://proxy.my-addr.com/myaddrproxy_img/proxy_header.png' /></div></center>
+</td></tr>
+<tr><td class='light_bg creambg' style='width:654px; padding:1px 1px 0px 1px ;'>
+<div class='subpage_header_skybg'>High speed free online web proxy</div>
+<div class='page_decription_sky'>
+<center>
+<div class='proxy_bar_white_container' style='width:700px; text-align:left; padding-left:20px;'>
+Just put your url to text field and click "START". This proxy is free for use, but forbidden for bots or non human use.<br />
+If your browser will use http referer - it will make online proxy surfing more correct, this proxy hiding real referer.<br /> 
+You can also use fast access method "http://proxy.my-addr.com/YOUR_URL" for free proxy surfing.<br>
+We advice to use <a href='http://eproxy.my-addr.com/buy-anonymous-elite-http-proxy.php'>http proxy</a> or <a href='http://eproxy.my-addr.com/buy-anonymous-elite-http-proxy-with-antivirus.php'>http proxy with antivirus scan</a>, it's cheap anonymouse private dedicated personal proxy.
+</div>
+<form method='get' action='http://proxy9747.my-addr.org/'>
+<input type='hidden' name='myaddr_proxy_native_form' value='1'>
+<table cellpadding='0px' cellspacing='2px'>
+<tr>
+<td style='width:632px; padding-left:2px;'><input type='text' name='proxy_url_sjla67z78f8viz4' value='' class='proxy_url'></td>
+<td style='width:89px; text-align:left;'><input type='image' src='http://proxy.my-addr.com/myaddrproxy_img/start_proxy.png' alt='start' title='start'></td>
+</tr>
+<tr><td colspan=2>
+</td></tr>
+<tr><td colspan=2>
+<!-- ADDITIONAL OPTIONS START -->
+<fieldset class='proxy_advanced_fieldset'>
+<legend><span>Advanced settings</span></legend>
+<table cellpadding='0px' cellspacing='0px' class='proxy_advanced_settings_table'>
+<!-- USER AGENT -->
+<tr>
+<td nowrap>&nbsp;User-Agent:</td>
+<td>
+<select id='select_user_agent' onchange='update_useragent(this.value)' class='proxy_advanced_settings_select'>
+<option value='cur' selected></option>
+<option value='real'>--real--</option>
+<option value='empty'>--do not use--</option>
+<option value='ie8'>Explorer 8</option>
+<option value='ie9'>Explorer 9</option>
+<option value='ff48'>FireFox 48</option>
+<option value='chrome'>Chrome 52</option>
+<option value='opera'>Opera</option>
+<option value='safari'>Safari</option>
+<option value='gbot'>Google Bot</option>
+</select>
+</td><td><input type='text' name='useragent' id='useragent' value='Python-urllib/3.9' class='proxy_advanced_settings_text'></td>
+</tr>
+<!-- COOKIE SCRIPTS -->
+<tr>
+<td colspan=3 nowrap>
+<label for="navigation_bar"><input type='checkbox' value='1' name='navigation_bar' id='navigation_bar'  onchange='save_settings("navigation_bar")'>&nbsp;Show navigation bar</label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<label for="clean_history"><input type='checkbox' value='1' name='clean_history' id='clean_history'  onchange='save_settings("clean_history")'>&nbsp;Clean cookies before start</label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<label for="remove_cookie"><input type='checkbox' value='1' name='remove_cookie' id='remove_cookie'  onchange='save_settings("remove_cookie")'>&nbsp;Turn off cookies</label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<label for="remove_jscript"><input type='checkbox' value='1' name='remove_jscript' id='remove_jscript'  onchange='save_settings("remove_jscript")'>&nbsp;Turn off scripts</label>
+</td>
+</tr>
+</table>
+</fieldset>
+<!-- ADDITIONAL OPTIONS END  -->
+</td></tr>
+<tr><td colspan=3>
+<!-- ADD INFO START -->
+<center>
+<div class='proxy_bar_white_container' style='width:720px; text-align:left; '>
+<table>
+<tr><td colspan=3 style='font-size:13px;'>
+My-Addr Project <u>do not steal your accounts</u> and <u>do not store your data</u>! Biggest part of other proxies doing it!
+</td></tr>
+<tr> 
+<td><ul>
+<li>SSL/HTTPS connection compatible</li>
+<li>Google/Yahoo/Bing search compatible</li>
+<li>Livejournal, Facebook mobile, Gmail basic</li>
+</ul></td><td><ul>
+<li>Fast upload speed</li>
+<li>60 seconds timeout</li>
+<li>Full error output</li>
+</ul></td><td><ul>
+<li>Free for use</li>
+<li>No daily limits</li>
+<li>No requests logs</li>
+</ul></td>
+</tr>
+<tr><td colspan=3 >My-Addr Project online web proxy that do not save any content, it is just trasfering data from requested site to customer,
+so it is not copyright infringement or phishing. Online proxy surf is legal and do not break any laws or rules.<br />
+If you webmaster and you do not want that customers see your content - do not share it in Internet!<br />
+Make us know if something is broken or for contact us use email address help(*)my-addr.com.
+</td></tr>
+<tr><td colspan=3 style='font-size:10px;'><center>** all bots are fobidden and will be banned permanent</center></td></tr>
+</table>
+<!-- ADD INFO START -->
+</div>
+</td></tr>
+<tr><td colspan=3>
+<center>
+<div class='proxy_bar_ad' style='width:720px; '>
+<table><tr>
+<td><img src='http://proxy.my-addr.com/myaddrproxy_img/green_arrow.png' border=0 style='border:0px;'></td>
+<td>Continue with My Personal Anonymous </td>
+<td><a href='http://eproxy.my-addr.com/buy-anonymous-elite-http-proxy.php'>HTTP Proxy</a></td>
+<td>or</td>
+<td><a href='http://eproxy.my-addr.com/buy-anonymous-elite-http-proxy-with-antivirus.php' style='color:#008000;'>HTTP Proxy with AntiVirus scan</a></td>
+</tr></table>
+</div>
+</center>
+</td></tr>
+</table>
+</form>
+</center>
+</div>
+</td></tr>
+</table>
+</center>
+</body>
+</html>
